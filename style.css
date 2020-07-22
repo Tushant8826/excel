@@ -1,0 +1,156 @@
+/* Default styling */
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.menu{
+    height: 30px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+
+}
+#formula-bar {
+    display: flex;
+    align-items: center;
+}
+#address-input {
+    margin-left: 24px;
+
+}
+#formula-input {
+    margin-left: 3px;
+}
+#File {
+    margin-left: 32px;
+}
+#Home {
+    margin-left: 20px;
+}
+.menu-options{
+    height: 30px;
+    border: 1px solid green;
+    align-items: center;
+    display: flex;
+}
+.menu-row{
+    display: flex;
+    text-align: center;
+}
+ .menu-options-item{
+    display: none;;
+    width:300px
+}
+
+.menu-options-item.selected{
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#File-menu-options {
+    margin-left: 0px;
+}
+.formula-bar{
+    height: 30px;
+    border: 1px solid blue;
+    display: flex;
+
+}
+/* #Home-menu-options {
+    margin-left: 56px;
+} */
+/* .menu-row {
+    
+} */
+#font-family {
+    height: 26px;
+}
+.style-options {
+    display: flex;
+}
+.style-options input {
+    width: 25px;
+    margin-left: 3px;
+}
+.menu_color-container {
+   display: flex;
+}
+.menu_color-container input {
+    margin-left: 3px;
+ }
+ .menu-group {
+    display: flex;
+    align-items: center;
+ }
+ .menu-group input {
+     margin-left: 3px;
+ }
+.menu-subgroup {
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+
+}
+.cell-container{
+    background-color: springgreen;
+    height: calc(100vh - 130px);
+    overflow: auto;
+    position: relative;
+}
+.cell-container>*{
+position: absolute;
+top:0px;
+}
+.sheets{
+    height: 20px;
+    border: 1px solid red
+}
+.row{
+    display: flex;
+}
+.row .cell{
+    border:1px solid teal;
+min-height: 25px;
+min-width:88px;
+}
+.top-row{
+    display: flex;
+    background-color: lightcyan;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+}
+.left-col{
+    width: 25px;
+    background-color: lightcyan;
+    border: 1px solid teal;
+    top: 25px;
+}
+.top-row .cell{
+    border: 1px solid teal;
+    min-height: 25px;
+    min-width: 88px;
+    text-align: center;
+}
+.left-col .cell{
+border:1px solid cyan;
+height:25px;
+width:25px;
+}
+.top-left-cell{
+    height: 25px;
+    width: 25px;
+    border: 1px solid teal;
+    background-color: lightcyan;
+}
+.grid{
+top:25px;
+left: 25px;
+}
+.menu-row input[type="button"].selected{
+    background-color: gray;
+}
